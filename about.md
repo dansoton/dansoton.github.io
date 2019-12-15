@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Ramblings semi-related to software development and architecture from someone exploring how to ever improve on designing software solutions.
 
-### More Information
+### One more thing...
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I don't post anywhere near as much as I should about the things I learn along the way, but hopefully this blog will help to improve on that a little.
