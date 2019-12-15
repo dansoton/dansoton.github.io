@@ -25,14 +25,14 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1240px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $darkerBlue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -47,7 +47,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $blue;
+    &:hover, &:active {
+      color: $yellow;
+    }
   }
 }
 
@@ -69,7 +72,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $yellow;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -117,7 +120,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $darkerBlue;
 }
 
 // Specify the color of the selection
@@ -192,7 +195,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $blue;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +205,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $yellow;
   font-size: 16px;
 
   @include mobile {
@@ -225,10 +228,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+
+    color: $blue;
+    &:hover, &:active {
+      color: $yellow;
+    }
 
     @include mobile {
       margin: 0 10px;
@@ -275,7 +282,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $yellow;
 }
 
 footer {
