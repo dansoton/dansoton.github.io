@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Ramblings semi-related to software development and architecture from someone exploring how to ever improve on designing software solutions.
+Lead Solutions Architect and founder of Elevai Consulting Inc.
 
 ### One more thing...
 
